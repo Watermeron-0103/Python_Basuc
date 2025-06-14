@@ -17,9 +17,9 @@
         return None
     ```
 
-Below is a practical example
+- Below is a practical example:
     ```python
-
+    
     import pandas as pd
     import re
     
