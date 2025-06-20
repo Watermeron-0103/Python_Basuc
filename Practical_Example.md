@@ -12,11 +12,10 @@
     def main():
 
         # コピー元ファイルパス
-        src_file = f"{base_path}/{base_folder}{base_file}"
-        print(f"取得したコピー元pathは : {src_file}")
+        src_file = "sample_excel_file.xlsx"
     
         # コピー先フォルダ
-        dest_folder = ws_path.iloc[6, 2] # C7
+        dest_folder = "sample_directry/"
     
         # 今日の日付を YYYYMMDD 形式で取得
         today = datetime.datetime.now().strftime("%Y%m%d")
