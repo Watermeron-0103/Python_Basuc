@@ -8,6 +8,7 @@
 | ④ 検査種類（抜取・全数など）の自動判定 | `kensasyurui()` 関数               | Pythonで同じロジックをif文で再現                  |
 
 - 以下のVBAコードをpython化
+vba
 ```vba
 With Worksheets("検査計画書")
   For i = 7 To 50
@@ -19,7 +20,7 @@ With Worksheets("検査計画書")
 End With
 ```
 
-python化
+python
 ```python
 for row in range(7, max_row + 1):
     for col_name, col_num in COLUMNS_TO_COPY.items():
